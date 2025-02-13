@@ -80,6 +80,7 @@ button {
    border: none;
    transition: transform 0.3s var(--overshoot-big);
    position: relative;
+   color: black;
 }
 
 button:hover,
