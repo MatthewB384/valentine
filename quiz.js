@@ -256,10 +256,8 @@ function wrong_answer() {
       $(".floating-heart").attr("src", "images/explosion.gif");
    }, 1000);
    setTimeout(() => {
-      if (confirm("Womp womp you lose")) {
-         window.open("", "_self").close();
-      }
-   }, 2600);
+      window.location.href = "https://www.youtube.com/watch?v=3HeCPlBxhg8";
+   }, 2500);
 }
 
 function end_quiz() {
