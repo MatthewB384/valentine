@@ -256,7 +256,9 @@ function wrong_answer() {
       $(".floating-heart").attr("src", "images/explosion.gif");
    }, 1000);
    setTimeout(() => {
-      window.close();
+      if (confirm("Womp womp you lose")) {
+         window.open("", "_self").close();
+      }
    }, 2600);
 }
 
